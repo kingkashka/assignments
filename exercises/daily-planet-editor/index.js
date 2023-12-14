@@ -14,7 +14,7 @@ h1.addEventListener("click", () => {
 
 const birds = ["robin", "pelican", "goose"]
 
-const bigBirds = birds.map((bird) => {
-    return "big " + bird
+const bigBirds = birds.map(bird => "big " + bird
 })
 
+const addTwo = (first, second) => first + second
